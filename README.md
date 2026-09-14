@@ -16,15 +16,14 @@ The demo is a **64-token excerpt**, stopped at the requested limit, not a comple
 | Measurement | Recorded run |
 | --- | ---: |
 | Time to first token, excluding loading | 4.96 s |
-| Mean interval after first token | 0.569 s/token |
-| Throughput from those intervals | 1.76 tokens/s |
+| Decode throughput after first token | 1.76 tokens/s |
 | Inference through the last displayed token | 40.77 s |
 | Model loading, separately | 1.21 s |
 | Peak process physical footprint | 5.09 GB |
 | Expert pool | 640 slots / 1.77 GB |
 
 A [second independent process run](benchmarks/navier64-repeat-stats.json) produced
-the same 64 token IDs: 4.957 s TTFT, 0.568 s/token, and 5.084 GB peak footprint.
+the same 64 token IDs: 4.957 s TTFT, 1.76 tokens/s, and 5.084 GB peak footprint.
 
 An [arithmetic sanity check](benchmarks/arithmetic-stats.json) also returned `4` for `What is 2+2?` and terminated
 normally. These are short local smoke tests, not model-quality validation or a
@@ -103,7 +102,8 @@ python3 scripts/render_demo.py runs/demo/replay.json --speed 2 --out assets/demo
 ```
 
 Inference TTFT excludes model loading; loading time is reported separately.
-Mean seconds/token uses the intervals after the first generated token. Native
+Decode throughput is the number of intervals after the first generated token
+divided by their total duration. Native
 Slotstream's aggregate decode-rate convention is also preserved in the raw JSON.
 The demo's memory/cache/read cards summarize the completed run, not live traces.
 Peak memory reports process physical footprint, which includes more than active

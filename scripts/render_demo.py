@@ -16,7 +16,7 @@ def render(t,data,speed):
  text(40,114,'Mac mini M1 · 16 GB RAM · 1 TB SSD',27,MUTED)
  text(40,152,'Slotstream 0.2.17 · MLX 4-bit checkpoint · SSD expert streaming',20,MUTED)
  text(1210,39,f'{speed:g}× REPLAY',22,CYAN,True)
- stats=[('INFERENCE ELAPSED',f'{min(t,end):.1f} s'),('TIME TO FIRST TOKEN',f'{data["first_token_seconds"]:.2f} s' if idx>=0 else 'Waiting…'),('SECONDS / TOKEN',f'{(ev[idx]["seconds"]-ev[0]["seconds"])/idx:.2f}' if idx>0 else '—')]
+ stats=[('INFERENCE ELAPSED',f'{min(t,end):.1f} s'),('TIME TO FIRST TOKEN',f'{data["first_token_seconds"]:.2f} s' if idx>=0 else 'Waiting…'),('TOKENS / SECOND',f'{idx/(ev[idx]["seconds"]-ev[0]["seconds"]):.2f}' if idx>0 else '—')]
  for i,(label,value) in enumerate(stats):
   x=40+i*460;box(x,205,440,112);text(x+20,222,label,14,MUTED,True);text(x+20,252,value,34,CYAN if i==0 else WHITE,True)
  box(40,337,1360,74);text(60,350,'PROMPT',13,CYAN,True);text(60,371,'explain what is navier stokes',25)
