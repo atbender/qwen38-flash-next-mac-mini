@@ -1,8 +1,7 @@
 # Qwen3.8-Flash-Next on a 16 GB M1 Mac mini
 
 A reproducible local inference experiment using **Slotstream 0.2.17** to stream
-Qwen3.8-Flash-Next experts from SSD. This recipe uses the existing upstream
-runtime; it does not claim authorship of Slotstream or its model implementation.
+Qwen3.8-Flash-Next experts from SSD on an Apple Silicon Mac.
 
 ## Measured result
 
@@ -33,16 +32,12 @@ long-context benchmark. The demo ran after that sanity check, so some file pages
 could already be cached by macOS; this is not a controlled cold-cache benchmark.
 Closing unused GUI applications was necessary to pass the memory planner.
 
-The previous DeepSeek result was about 23 seconds/token. This Qwen run was much
-faster, but uses a different model, quantization, runtime, and workload length.
-
 ## Hardware and model
 
 - Apple M1 Mac mini, 16 GB unified memory, internal 1 TB SSD, macOS 26.5.2.
 - Qwen3.8-Flash-Next: 125B main-model parameters plus 51B n-gram embedding
   parameters, with 6B active per token, per the Qwen model announcement.
-- Slotstream's pinned MLX 4-bit checkpoint, about 105 GB on disk. It is a
-  quantized checkpoint, unlike the original native-format DeepSeek experiment.
+- Slotstream's pinned MLX 4-bit quantized checkpoint, about 105 GB on disk.
 - Text only, greedy sampling, MTP/speculative decoding disabled, 512-token window.
 
 Runtime release: `v0.2.17`, source commit
@@ -111,27 +106,10 @@ Inference TTFT excludes model loading; loading time is reported separately.
 Mean seconds/token uses the intervals after the first generated token. Native
 Slotstream's aggregate decode-rate convention is also preserved in the raw JSON.
 The demo's memory/cache/read cards summarize the completed run, not live traces.
-Process footprint is a different measurement from the active MLX allocation
-counter used in the DeepSeek demo; the two should not be compared directly.
+Peak memory reports process physical footprint, which includes more than active
+MLX allocations.
 Logical expert reads include OS-cache hits and exclude other model file reads;
 they are not a physical SSD bandwidth measurement.
-
-## A note for llama.cpp users
-
-Our earlier DeepSeek test used a custom Python/MLX runner. This Qwen recipe uses
-Slotstream (Swift/MLX). Neither is a set of llama.cpp flags.
-
-For Qwen failures on a Mac cluster, first collect the llama.cpp commit/build,
-exact GGUF and quantization, launch command, each node's RAM, and the first Metal
-error preceding the crash. Two relevant upstream reports are:
-
-- [Metal mmap + CPU expert placement can still hit Metal OOM](https://github.com/ggml-org/llama.cpp/issues/27822).
-- [RPC + Metal mmap can retain the full model on the main node](https://github.com/ggml-org/llama.cpp/issues/27667).
-
-Those reports are diagnostic leads, not confirmation of a particular user's
-failure. Mapping a file and paging it from SSD is not the same as a bounded
-expert cache. A successful model load does not establish that inference's
-additional buffers fit. We have not benchmarked llama.cpp or a Mac cluster here.
 
 ## Sources and credits
 
