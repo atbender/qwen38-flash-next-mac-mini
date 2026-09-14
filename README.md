@@ -5,9 +5,9 @@ Qwen3.8-Flash-Next experts from SSD on an Apple Silicon Mac.
 
 ## Measured result
 
-![Measured Qwen token replay at 2× speed](assets/demo.gif)
+![Measured Qwen token replay at 2× speed](assets/demo-orange.gif)
 
-[Download the MP4](assets/demo.mp4) · [Final frame](assets/demo.png) ·
+[Download the MP4](assets/demo-orange.mp4) · [Final frame](assets/demo-orange.png) ·
 [Native statistics](benchmarks/navier64-stats.json) · [Token timeline](benchmarks/navier64-replay.json)
 
 Prompt: `explain what is navier stokes` (19 tokens including the chat template).
@@ -98,7 +98,7 @@ The renderer requires Pillow and FFmpeg and uses macOS fonts.
 python3 scripts/prepare_replay.py runs/demo/stats.json \
   --tokenizer "$HOME/models/Qwen3.8-Flash-Next-Slotstream-4bit/tokenizer.json" \
   --out runs/demo/replay.json
-python3 scripts/render_demo.py runs/demo/replay.json --speed 2 --out assets/demo.mp4
+python3 scripts/render_demo.py runs/demo/replay.json --speed 2 --out assets/demo-orange.mp4
 ```
 
 Inference TTFT excludes model loading; loading time is reported separately.
