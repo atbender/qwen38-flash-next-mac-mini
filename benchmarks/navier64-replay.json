@@ -1,0 +1,578 @@
+{
+  "model": "Qwen3.8-Flash-Next",
+  "runtime": "Slotstream 0.2.17",
+  "quantization": "MLX affine 4-bit checkpoint",
+  "events": [
+    {
+      "step": 0,
+      "token": 760,
+      "seconds": 4.955168167,
+      "text": "The"
+    },
+    {
+      "step": 1,
+      "token": 2972,
+      "seconds": 5.719667084,
+      "text": "The **"
+    },
+    {
+      "step": 2,
+      "token": 9796,
+      "seconds": 6.206179625,
+      "text": "The **Nav"
+    },
+    {
+      "step": 3,
+      "token": 1223,
+      "seconds": 6.9067775,
+      "text": "The **Navier"
+    },
+    {
+      "step": 4,
+      "token": 38308,
+      "seconds": 7.36191325,
+      "text": "The **Navier-St"
+    },
+    {
+      "step": 5,
+      "token": 7690,
+      "seconds": 7.833292833,
+      "text": "The **Navier-Stokes"
+    },
+    {
+      "step": 6,
+      "token": 36655,
+      "seconds": 8.347890333,
+      "text": "The **Navier-Stokes equations"
+    },
+    {
+      "step": 7,
+      "token": 332,
+      "seconds": 8.852357208,
+      "text": "The **Navier-Stokes equations**"
+    },
+    {
+      "step": 8,
+      "token": 513,
+      "seconds": 9.476720749,
+      "text": "The **Navier-Stokes equations** are"
+    },
+    {
+      "step": 9,
+      "token": 264,
+      "seconds": 9.998845916,
+      "text": "The **Navier-Stokes equations** are a"
+    },
+    {
+      "step": 10,
+      "token": 716,
+      "seconds": 10.527080332,
+      "text": "The **Navier-Stokes equations** are a set"
+    },
+    {
+      "step": 11,
+      "token": 314,
+      "seconds": 11.015685582,
+      "text": "The **Navier-Stokes equations** are a set of"
+    },
+    {
+      "step": 12,
+      "token": 6907,
+      "seconds": 11.522148164999999,
+      "text": "The **Navier-Stokes equations** are a set of partial"
+    },
+    {
+      "step": 13,
+      "token": 38832,
+      "seconds": 12.102203498,
+      "text": "The **Navier-Stokes equations** are a set of partial differential"
+    },
+    {
+      "step": 14,
+      "token": 36655,
+      "seconds": 12.552180664,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations"
+    },
+    {
+      "step": 15,
+      "token": 421,
+      "seconds": 13.026253456,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that"
+    },
+    {
+      "step": 16,
+      "token": 7276,
+      "seconds": 13.56936129,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe"
+    },
+    {
+      "step": 17,
+      "token": 279,
+      "seconds": 14.108325665,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the"
+    },
+    {
+      "step": 18,
+      "token": 11051,
+      "seconds": 14.684509373000001,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion"
+    },
+    {
+      "step": 19,
+      "token": 314,
+      "seconds": 15.162871457000001,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of"
+    },
+    {
+      "step": 20,
+      "token": 56586,
+      "seconds": 15.704130999000002,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of visc"
+    },
+    {
+      "step": 21,
+      "token": 757,
+      "seconds": 16.222299832,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous"
+    },
+    {
+      "step": 22,
+      "token": 15133,
+      "seconds": 16.776329791000002,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid"
+    },
+    {
+      "step": 23,
+      "token": 30999,
+      "seconds": 17.309608999,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances"
+    },
+    {
+      "step": 24,
+      "token": 13,
+      "seconds": 17.834661999,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances."
+    },
+    {
+      "step": 25,
+      "token": 2302,
+      "seconds": 18.523121458000002,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They"
+    },
+    {
+      "step": 26,
+      "token": 513,
+      "seconds": 19.187359375000003,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are"
+    },
+    {
+      "step": 27,
+      "token": 15346,
+      "seconds": 19.690193834000002,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental"
+    },
+    {
+      "step": 28,
+      "token": 310,
+      "seconds": 20.275424834000003,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to"
+    },
+    {
+      "step": 29,
+      "token": 15133,
+      "seconds": 20.804421334000004,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid"
+    },
+    {
+      "step": 30,
+      "token": 28240,
+      "seconds": 21.421130918000003,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics"
+    },
+    {
+      "step": 31,
+      "token": 321,
+      "seconds": 21.948045876000002,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and"
+    },
+    {
+      "step": 32,
+      "token": 513,
+      "seconds": 22.595045376,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are"
+    },
+    {
+      "step": 33,
+      "token": 1429,
+      "seconds": 23.169587543000002,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used"
+    },
+    {
+      "step": 34,
+      "token": 310,
+      "seconds": 23.719396293000003,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to"
+    },
+    {
+      "step": 35,
+      "token": 1558,
+      "seconds": 24.258028960000004,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model"
+    },
+    {
+      "step": 36,
+      "token": 4156,
+      "seconds": 24.745931460000005,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything"
+    },
+    {
+      "step": 37,
+      "token": 494,
+      "seconds": 25.351380544000005,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from"
+    },
+    {
+      "step": 38,
+      "token": 8831,
+      "seconds": 25.853059586000004,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather"
+    },
+    {
+      "step": 39,
+      "token": 12261,
+      "seconds": 26.460677461000003,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns"
+    },
+    {
+      "step": 40,
+      "token": 321,
+      "seconds": 26.971833086000004,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and"
+    },
+    {
+      "step": 41,
+      "token": 17415,
+      "seconds": 27.548337544000002,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean"
+    },
+    {
+      "step": 42,
+      "token": 57587,
+      "seconds": 28.190381336,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents"
+    },
+    {
+      "step": 43,
+      "token": 310,
+      "seconds": 28.730660003,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to"
+    },
+    {
+      "step": 44,
+      "token": 70538,
+      "seconds": 29.315372294,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow"
+    },
+    {
+      "step": 45,
+      "token": 888,
+      "seconds": 29.961356044,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over"
+    },
+    {
+      "step": 46,
+      "token": 449,
+      "seconds": 30.481012544,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an"
+    },
+    {
+      "step": 47,
+      "token": 41505,
+      "seconds": 31.175235752,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane"
+    },
+    {
+      "step": 48,
+      "token": 19403,
+      "seconds": 31.872436086,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing"
+    },
+    {
+      "step": 49,
+      "token": 321,
+      "seconds": 32.404248128,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and"
+    },
+    {
+      "step": 50,
+      "token": 6340,
+      "seconds": 33.047468836,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood"
+    },
+    {
+      "step": 51,
+      "token": 6195,
+      "seconds": 33.685546669,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow"
+    },
+    {
+      "step": 52,
+      "token": 303,
+      "seconds": 34.15464796,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in"
+    },
+    {
+      "step": 53,
+      "token": 81632,
+      "seconds": 34.748674335,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries"
+    },
+    {
+      "step": 54,
+      "token": 13,
+      "seconds": 35.416422126,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries."
+    },
+    {
+      "step": 55,
+      "token": 271,
+      "seconds": 36.084033085,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries.\n\n"
+    },
+    {
+      "step": 56,
+      "token": 13962,
+      "seconds": 36.645446294,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries.\n\n###"
+    },
+    {
+      "step": 57,
+      "token": 220,
+      "seconds": 37.148922711000004,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries.\n\n### "
+    },
+    {
+      "step": 58,
+      "token": 16,
+      "seconds": 37.85970587800001,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries.\n\n### 1"
+    },
+    {
+      "step": 59,
+      "token": 13,
+      "seconds": 38.54668096100001,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries.\n\n### 1."
+    },
+    {
+      "step": 60,
+      "token": 3437,
+      "seconds": 39.116535002000006,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries.\n\n### 1. What"
+    },
+    {
+      "step": 61,
+      "token": 3054,
+      "seconds": 39.73674571000001,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries.\n\n### 1. What Do"
+    },
+    {
+      "step": 62,
+      "token": 2302,
+      "seconds": 40.22216104300001,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries.\n\n### 1. What Do They"
+    },
+    {
+      "step": 63,
+      "token": 58737,
+      "seconds": 40.77123162600001,
+      "text": "The **Navier-Stokes equations** are a set of partial differential equations that describe the motion of viscous fluid substances. They are fundamental to fluid dynamics and are used to model everything from weather patterns and ocean currents to airflow over an airplane wing and blood flow in arteries.\n\n### 1. What Do They Describe"
+    }
+  ],
+  "first_token_seconds": 4.955168167,
+  "mean_intertoken_seconds": 0.5685089437936508,
+  "total_seconds": 40.771230249999995,
+  "load_seconds": 1.212741833,
+  "peak_process_gb": 5.086191808,
+  "expert_cache_hit_rate": 0.38022486772486774,
+  "expert_read_bytes": 61948108800,
+  "stats": {
+    "abortedReadScopes": 0,
+    "acceptedDrafts": 0,
+    "adaptiveDraftDepths": [],
+    "adaptivePlainTokens": 0,
+    "allocatedSequenceBytes": 28311552,
+    "cachedRouterBytes": 0,
+    "completePromptHits": 0,
+    "completePromptStores": 0,
+    "contextArithmetic": "standard",
+    "decodeForwardPasses": 63,
+    "decodeIOSeconds": 17.75926721600003,
+    "decodeLocalVictims": 0,
+    "decodeModelTokens": 63,
+    "decodeReadBytes": 51817881600,
+    "decodeRecords": 18742,
+    "decodeScatterSeconds": 0.15762661499999986,
+    "decodeSeconds": 35.818641875,
+    "decodeSlotCPUBatches": 0,
+    "decodeSlotScatterBatches": 3013,
+    "decodeSlotSliceBatches": 0,
+    "decodeSlotSliceRuns": 0,
+    "decodeSlotWordBatches": 0,
+    "decodeSlotWordBuffers": 0,
+    "decodeTokens": 64,
+    "draftedTokens": 0,
+    "draftSeconds": 0,
+    "embeddingCachedPayloadBytes": 90720,
+    "embeddingCachedRows": 63,
+    "embeddingRowHits": 15,
+    "embeddingRowMisses": 63,
+    "embeddingRowsEnabled": true,
+    "encodedImages": 0,
+    "expertHitRate": 0.38022486772486774,
+    "finishReason": "length",
+    "firstTextSeconds": 4.955281416,
+    "firstTokenSeconds": 4.955168167,
+    "fusedGDNProjectionsScheduled": 0,
+    "fusedRoPERotationsScheduled": 0,
+    "imageEncodeSeconds": 1.25e-07,
+    "interTokenSeconds": [
+      0.764498917,
+      0.486512541,
+      0.700597875,
+      0.45513575,
+      0.471379583,
+      0.5145975,
+      0.504466875,
+      0.624363541,
+      0.522125167,
+      0.528234416,
+      0.48860525,
+      0.506462583,
+      0.580055333,
+      0.449977166,
+      0.474072792,
+      0.543107834,
+      0.538964375,
+      0.576183708,
+      0.478362084,
+      0.541259542,
+      0.518168833,
+      0.554029959,
+      0.533279208,
+      0.525053,
+      0.688459459,
+      0.664237917,
+      0.502834459,
+      0.585231,
+      0.5289965,
+      0.616709584,
+      0.526914958,
+      0.6469995,
+      0.574542167,
+      0.54980875,
+      0.538632667,
+      0.4879025,
+      0.605449084,
+      0.501679042,
+      0.607617875,
+      0.511155625,
+      0.576504458,
+      0.642043792,
+      0.540278667,
+      0.584712291,
+      0.64598375,
+      0.5196565,
+      0.694223208,
+      0.697200334,
+      0.531812042,
+      0.643220708,
+      0.638077833,
+      0.469101291,
+      0.594026375,
+      0.667747791,
+      0.667610959,
+      0.561413209,
+      0.503476417,
+      0.710783167,
+      0.686975083,
+      0.569854041,
+      0.620210708,
+      0.485415333,
+      0.549070583
+    ],
+    "lifetimePhysicalFootprintPeakBytes": 5086191808,
+    "lifetimeRSSPeakBytes": 3183951872,
+    "memoryPressureCancelled": false,
+    "mlxActiveEndBytes": 4493696368,
+    "mlxCacheEndBytes": 39074021,
+    "mlxPeakMemoryGB": 4.745934562,
+    "ngramCachedRows": 1312,
+    "ngramCachePayloadBytes": 419840,
+    "ngramLookaheadDiscarded": 0,
+    "ngramLookaheadRows": 0,
+    "ngramLookaheadWaitSeconds": 0,
+    "ngramPrefetchSeconds": 0.07941371100000001,
+    "ngramRowHits": 0,
+    "ngramRowMisses": 1008,
+    "packedGDNProjectionLayers": 0,
+    "packedGDNProjectionPayloadBytes": 0,
+    "peakMemoryGB": 5.086191808,
+    "physicalFootprintEndBytes": 5086191808,
+    "prefillComputeKeyExtents": [
+      19
+    ],
+    "prefillComputePasses": [
+      19
+    ],
+    "prefillComputeQueryRows": [
+      19
+    ],
+    "prefillGPUWaitSeconds": 0,
+    "prefillIOSeconds": 3.226611118,
+    "prefillLocalVictims": 0,
+    "prefillMLXActiveBytes": 4489146032,
+    "prefillMLXCacheBytes": 35241357,
+    "prefillPasses": [
+      19
+    ],
+    "prefillPhysicalFootprintBytes": 5068136512,
+    "prefillReadBytes": 10130227200,
+    "prefillRecords": 3664,
+    "prefillRowSortSeconds": 0,
+    "prefillScatterSeconds": 0.007554418999999998,
+    "prefillSeconds": 4.952588375,
+    "prefillSlotCPUBatches": 0,
+    "prefillSlotSliceBatches": 0,
+    "prefillSlotWordBatches": 0,
+    "prefillTokens": 19,
+    "prefixCheckpointErrors": 0,
+    "prefixCheckpointForks": 0,
+    "prefixCheckpointRefusals": 1,
+    "prefixCheckpointStores": 0,
+    "prefixSkippedImages": 0,
+    "preparationSeconds": 0.01754375,
+    "promptTokens": 19,
+    "queueSeconds": 5.375e-06,
+    "reconciledHeadTokens": 0,
+    "reconciliationSeconds": 0,
+    "requestSeconds": 40.790641459,
+    "residentExpertJoins": 0,
+    "residentExpertJoinSeconds": 0,
+    "residentExpertPrelaunches": 0,
+    "reusedHeadTokens": 0,
+    "reusedImageFeatures": 0,
+    "reusedPrefixTokens": 0,
+    "ropeTableBuilds": 64,
+    "ropeTableHits": 704,
+    "sampleSeconds": 0.025615127999999997,
+    "sharedExpertPrelaunches": 0,
+    "smallPrefillSweeps": 0,
+    "terminalMoERowsSkipped": 0,
+    "terminalQueryRowsSkipped": 0,
+    "tokenCallbackSeconds": 0.0022513750000000003,
+    "verifyPasses": 0,
+    "verifySeconds": 0,
+    "visionQueryTile": 0,
+    "visionQueryTileCalls": 0
+  }
+}
